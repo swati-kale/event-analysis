@@ -189,7 +189,7 @@
     <repository>
       <id>maven-DM</id>
       <name>maven-DM</name>
-      <url>${NEXUSREPO}/repository/maven-DM/</url>
+      <url>${env.NEXUSREPO}/repository/maven-DM/</url>
     </repository>
   </repositories>
 
