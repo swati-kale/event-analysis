@@ -41,13 +41,7 @@
 				<scope>import</scope>
 			</dependency>
 
-			<dependency>
-				<groupId>org.jboss.redhat-fuse</groupId>
-				<artifactId>fuse-springboot-bom</artifactId>
-				<version>${bom.version}</version>
-				<type>pom</type>
-
-			</dependency>
+			
 		</dependencies>
 	</dependencyManagement>
 
@@ -165,17 +159,8 @@
 				</exclusion>
 			</exclusions>
 		</dependency>
-		<dependency>
-			<groupId>org.apache.camel</groupId>
-			<artifactId>camel-core</artifactId>
-			<version>2.21.0.fuse-720050-redhat-00001</version>
-		</dependency>
-		<dependency>
-			<groupId>org.kie</groupId>
-			<artifactId>kie-dmn-core</artifactId>
-			<version>LATEST</version>
-		</dependency>
-
+		
+		
 
 	</dependencies>
 
