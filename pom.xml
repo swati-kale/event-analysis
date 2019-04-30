@@ -10,14 +10,7 @@
 
 	<name>deposit-retention</name>
 	<description>Deposit Retention Use case</description>
- <distributionManagement>
-    <repository>
-      <id>maven-DM</id>
-      <name>maven-DM</name>
-      <url>http://nexus-nexus.192.168.99.100.nip.io/repository/maven-DM/</url>
-      <layout>default</layout>
-    </repository>
-  </distributionManagement>
+
 	<parent>
 
 		<groupId>org.springframework.boot</groupId>
@@ -32,6 +25,7 @@
 		<project.reporting.outputEncoding>UTF-8</project.reporting.outputEncoding>
 		<java.version>1.8</java.version>
 		<bom.version>7.0.0.fuse-000027-redhat-1</bom.version>
+		
 	</properties>
 	<dependencyManagement>
 
@@ -209,7 +203,7 @@
     <repository>
       <id>maven-DM</id>
       <name>maven-DM</name>
-      <url>{nexus.maven.repo}/repository/maven-DM/</url>
+      <url>${nexus.maven.repo}/repository/maven-DM/</url>
     </repository>
   </repositories>
 
