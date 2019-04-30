@@ -209,7 +209,7 @@
     <repository>
       <id>maven-DM</id>
       <name>maven-DM</name>
-      <url>http://nexus-nexus.192.168.99.100.nip.io/repository/maven-DM/</url>
+      <url>{nexus.maven.repo}/repository/maven-DM/</url>
     </repository>
   </repositories>
 
