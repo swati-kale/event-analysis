@@ -25,6 +25,7 @@
 		<project.reporting.outputEncoding>UTF-8</project.reporting.outputEncoding>
 		<java.version>1.8</java.version>
 		<bom.version>7.0.0.fuse-000027-redhat-1</bom.version>
+		<nexus.maven.repo>http://nexus-nexus.192.168.99.100.nip.io</nexus.maven.repo>
 		
 	</properties>
 	<dependencyManagement>
