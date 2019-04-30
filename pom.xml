@@ -25,7 +25,7 @@
 		<project.reporting.outputEncoding>UTF-8</project.reporting.outputEncoding>
 		<java.version>1.8</java.version>
 		<bom.version>7.0.0.fuse-000027-redhat-1</bom.version>
-		<nexus.maven.repo>localhost</nexus.maven.repo>
+		<NEXUSREPO>localhost</NEXUSREPO>
 		
 	</properties>
 	<dependencyManagement>
@@ -189,7 +189,7 @@
     <repository>
       <id>maven-DM</id>
       <name>maven-DM</name>
-      <url>${nexus.maven.repo}/repository/maven-DM/</url>
+      <url>${NEXUSREPO}/repository/maven-DM/</url>
     </repository>
   </repositories>
 
