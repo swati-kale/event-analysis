@@ -58,6 +58,7 @@ public class DroolsRulesApplier {
         if(null != eventAnalysis) {
             Gson jsonObj = new Gson();
             AbstractMap.SimpleEntry<String,String > keyValue = new AbstractMap.SimpleEntry(key, eventAnalysis);
+            System.out.println(new Gson().toJson(keyValue));
             return new Gson().toJson(keyValue);
         }
         return null;
