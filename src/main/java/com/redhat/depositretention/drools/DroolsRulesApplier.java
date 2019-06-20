@@ -35,7 +35,7 @@ public class DroolsRulesApplier {
 
     public String processEvent(String key, String value) {
         
-        System.out.println("Processing Events for %s"+key);
+        System.out.println("Processing Events for: "+key.replace("\"",""));
 
         KieSession kieSession = DroolsSessionFactory.createDroolsSession();
 
